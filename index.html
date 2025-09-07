@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to Table Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-table"></i>
+                    CSV to Table Converter
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#tool">Tool</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Convert Your CSV Files into Clean, Readable Tables</h1>
+            <p>Upload any CSV file and instantly view it as a formatted, searchable table in your browser. No registration required.</p>
+            <a href="#tool" class="btn">Upload CSV Now</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Powerful Features</h2>
+                <p>Our CSV to Table converter comes with everything you need to visualize and work with your data</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-upload"></i>
+                    </div>
+                    <h3>Easy Upload</h3>
+                    <p>Just choose a CSV file and view instantly. No complicated steps.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Search & Filter</h3>
+                    <p>Quickly find data inside your table with our search functionality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Beautiful Tables</h3>
+                    <p>Styled with modern CSS for a clean and professional look.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Export Options</h3>
+                    <p>Export your data as JSON or Excel files (coming soon).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tool" id="tool">
+        <div class="container">
+            <div class="section-title">
+                <h2>CSV to Table Converter</h2>
+                <p>Upload your CSV file and see it transform into a beautiful, interactive table</p>
+            </div>
+            <div class="tool-container">
+                <div class="upload-area" id="uploadArea">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Drag & Drop your CSV file here</h3>
+                    <p>or</p>
+                    <label for="fileInput" class="btn">Choose File</label>
+                    <input type="file" id="fileInput" class="file-input" accept=".csv">
+                </div>
+                <div class="search-box" id="searchBox">
+                    <input type="text" id="searchInput" placeholder="Search in table...">
+                </div>
+                <div class="table-container" id="tableContainer">
+                    <table id="dataTable">
+                        <thead>
+                            <tr id="tableHeader"></tr>
+                        </thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2>How It Works</h2>
+                <p>Convert your CSV files in just three simple steps</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Upload CSV</h3>
+                    <p>Select your CSV file using the upload button or drag and drop</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Process Data</h3>
+                    <p>Our tool automatically parses and formats your CSV data</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>View & Interact</h3>
+                    <p>Search, sort, and explore your data in the beautiful table</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <i class="fas fa-table"></i>
+                        CSV to Table Converter
+                    </a>
+                    <p>Convert your CSV files into beautiful, interactive tables with our easy-to-use tool.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#tool">Tool</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 CSV to Table Converter. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <script src="app.js"></script>
+</body>
+</html>
