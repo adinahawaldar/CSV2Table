@@ -3,7 +3,12 @@
 Convert your CSV files into clean, readable tables right in your browser.  
 No backend required — everything runs on **HTML, CSS, and JavaScript**.  
 
-![Demo](assets/demo.png) 
+
+---
+
+## Preview
+
+![Demo](CSV2Table.png) 
 
 ---
 
