@@ -32,5 +32,5 @@ No backend required — everything runs on **HTML, CSS, and JavaScript**.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/tablefy.git
-cd tablefy
+git clone https://github.com/adinahawaldar/CSV2Table.git
+cd CSV2Table
