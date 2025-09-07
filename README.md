@@ -28,9 +28,26 @@ No backend required — everything runs on **HTML, CSS, and JavaScript**.
 
 ---
 
-## 📥 Getting Started
+## 🌍 Open Source & Contribution
 
-### Clone the Repository
-```bash
-git clone https://github.com/adinahawaldar/CSV2Table.git
-cd CSV2Table
+This project is **open source** and open for contributions under the MIT License.  
+
+
+### 💡 How to Contribute
+1. **Fork** the repository  
+2. **Create a new branch** for your feature/fix  
+   ```bash
+   git checkout -b feature/your-feature
+   ```bash
+3. Commit your changes 
+4. Push to your fork
+5. Open a Pull Request to the main branch of this repository 
+
+
+
+
+
+---
+
+## 👩‍💻 Developed By
+**Adina Hawaldar**  
