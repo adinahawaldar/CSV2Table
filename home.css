@@ -70,7 +70,6 @@
             color: white;
         }
 
-        /* Header */
         header {
             position: fixed;
             top: 0;
@@ -113,7 +112,6 @@
             color: var(--primary);
         }
 
-        /* Hero Section */
         .hero {
             padding: 150px 0 100px;
             background: linear-gradient(135deg, #f6f9ff 0%, #e9f2ff 100%);
@@ -135,7 +133,6 @@
             margin: 0 auto 40px;
         }
 
-        /* Features */
         .features {
             padding: 100px 0;
         }
@@ -185,7 +182,6 @@
             margin-bottom: 15px;
         }
 
-        /* Tool Section */
         .tool {
             padding: 100px 0;
             background-color: var(--light);
@@ -278,7 +274,6 @@
             font-size: 1rem;
         }
 
-        /* How It Works */
         .how-it-works {
             padding: 100px 0;
         }
@@ -299,7 +294,6 @@
         }
 
         .step:not(:last-child):after {
-            content: '';
             position: absolute;
             top: 40px;
             right: 0;
@@ -322,7 +316,6 @@
             margin: 0 auto 20px;
         }
 
-        /* Contact */
         .contact {
             padding: 100px 0;
             background: linear-gradient(135deg, #f6f9ff 0%, #e9f2ff 100%);
@@ -361,7 +354,6 @@
             min-height: 150px;
         }
 
-        /* Footer */
         footer {
             background-color: var(--dark);
             color: white;
@@ -427,7 +419,6 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .navbar {
                 flex-direction: column;
